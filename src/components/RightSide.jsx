@@ -6,17 +6,25 @@ const RightSide = () => {
       <div className="contains-arrows">
         <div className="arrows"></div>
         <div className="followers">
-            <p>70 K</p>
-            <p>Downloads</p>
+          <p>
+            70 K<br />
+            Downloads
+          </p>
         </div>
       </div>
       <div className="grid-container">
         <div className="grid-item">
           <div className="dots">...</div>
-          <p>Take your expenses under control</p>
+          <p className="take-expenses">
+            Take your <br /> expenses <br /> under control
+          </p>
         </div>
         <div className="grid-item"></div>
-        <div className="grid-item"></div>
+        <div className="grid-item">
+          <div className="icon-container">
+            <span className="style-line style-line-rotate"></span>
+          </div>
+        </div>
       </div>
     </div>
   );
