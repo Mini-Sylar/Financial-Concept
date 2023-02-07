@@ -13,6 +13,7 @@
   border-radius: 20px;
   padding: 1rem;
   position: relative;
+  width: 100%;
 }
 
 /* make the second grid item twice as tall as the others */
@@ -42,11 +43,11 @@
   background-position-x: 50%;
 }
 
-.grid-item:nth-child(2)::after{
+.grid-item:nth-child(2)::after {
   content: "";
   position: absolute;
   top: -80px;
-  left: -100px;
+  left: -120px;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -81,4 +82,30 @@
   margin-top: 1rem;
   margin-left: 1rem;
   font-size: xx-small;
+}
+
+.grid-item:nth-child(1) {
+  background-color: #9e938b;
+  place-self: center;
+  width: 80%;
+  height: 100%;
+  z-index: 1000;
+  position: relative;
+}
+
+.grid-item:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 10rem;
+  border-radius: 20px;
+  border: 2px solid black;
+  border-left: none;
+  border-bottom: none;
+  border-top-left-radius: 0px;
+  /* Insert gradient on border top */
+  border-image: radial-gradient(circle at 100%, rgba(253, 253, 253, 0), rgba(0, 0, 0, 0.11)) 1;
+  /* Fix raidus */
 }
