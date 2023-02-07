@@ -1,11 +1,15 @@
 import "./leftside.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+const arrowRight = <FontAwesomeIcon icon={faArrowRight} />;
 
 const LeftSide = () => {
   return (
     <div className="left-side">
       <div className="icon-container">
         <span className="style-line"></span>
-        <span className="arrow">➡</span>
+        <span className="arrow">{arrowRight}</span>
         <span className="ExploreText">
           Explore a 14 day <strong>free trial</strong>
         </span>
@@ -20,8 +24,12 @@ const LeftSide = () => {
         </h1>
       </div>
       <div className="call-to-action">
-        <button type="button" className="try-for-free">Try for free</button>
-        <button type="button" className="see-demo">See demo</button>
+        <button type="button" className="try-for-free">
+          Try for free
+        </button>
+        <button type="button" className="see-demo">
+          See demo
+        </button>
       </div>
       <div className="cards">
         <div className="card-one">
