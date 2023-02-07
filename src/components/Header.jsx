@@ -18,7 +18,6 @@ const Header = () => {
         </div>
         <div className="call-to-action">
           <button type="button">Get The App</button>
-          <button type="button">Ham</button>
         </div>
       </nav>
     </header>
