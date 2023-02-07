@@ -142,3 +142,8 @@
   flex-direction: column;
   position: relative;
 }
+
+
+.hero-text,.call-to-action,.cards{
+  margin-left: 3rem;
+}

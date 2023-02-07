@@ -1,19 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.main-container{
-    width: min(100%, 1400px);
-    margin: 0 auto;
+.main-container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
 }
 
-.contains-sides{
-    display: flex;
-    flex-wrap: wrap;
+.contains-sides {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-side-main,
+.right-side-main {
+  width: 50%;
 }

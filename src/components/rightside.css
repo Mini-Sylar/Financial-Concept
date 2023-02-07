@@ -1,0 +1,22 @@
+.right-side {
+  margin-top: 4.5rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+/* make the second grid item twice as tall as the others */
+.grid-item:nth-child(2) {
+    height: 300px;
+  grid-row: span 2;
+}

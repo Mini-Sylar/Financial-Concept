@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import LeftSide from "./components/LeftSide";
-import RightSide from "./components/RightSide"
+import RightSide from "./components/RightSide";
 import "./Reset.css";
 
 const App = () => {
@@ -9,8 +9,12 @@ const App = () => {
       <Header />
       <div className="main-container">
         <div className="contains-sides">
-          <LeftSide />
-          <RightSide></RightSide>
+          <div className="left-side-main">
+            <LeftSide />
+          </div>
+          <div className="right-side-main">
+            <RightSide />
+          </div>
         </div>
       </div>
     </>
