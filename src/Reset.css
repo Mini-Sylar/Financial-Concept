@@ -12,3 +12,8 @@ body{
     width: min(100%, 1400px);
     margin: 0 auto;
 }
+
+.contains-sides{
+    display: flex;
+    flex-wrap: wrap;
+}

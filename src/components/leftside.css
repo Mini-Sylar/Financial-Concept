@@ -1,5 +1,5 @@
 .left-side {
-  margin-top: 6rem;
+  margin-top: 4.5rem;
 }
 
 .icon-container {
@@ -60,7 +60,7 @@
 }
 
 .heading-text {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -74,10 +74,71 @@
   background-color: #010000;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50px;
-  padding: .7rem 2.5rem;
+  padding: 0.7rem 2.5rem;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   color: white;
+}
+
+.call-to-action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.see-demo {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 0.7rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.left-inner {
+  height: 100px;
+}
+.card-one h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.card-one p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.card-one {
+  padding: 1rem 2rem;
+  background-color: #010000;
+  border-radius: 25px;
+  color: white;
+  width: fit-content;
+}
+
+.card-two {
+  background-color: tomato;
+  border-radius: 25px;
+  padding: 0.5rem;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  z-index: -1;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }

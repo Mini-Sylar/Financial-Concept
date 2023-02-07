@@ -21,7 +21,7 @@ const LeftSide = () => {
       </div>
       <div className="call-to-action">
         <button type="button" className="try-for-free">Try for free</button>
-        <button>See the Demo</button>
+        <button type="button" className="see-demo">See demo</button>
       </div>
       <div className="cards">
         <div className="card-one">
