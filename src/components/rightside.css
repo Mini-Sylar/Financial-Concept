@@ -150,7 +150,8 @@
   transform: rotate(90deg);
   position: absolute;
   top: -2.1rem;
-  left: 50;
+  right: 15.25rem;
+  z-index: -1;
 }
 
 .main-arrow-rotate {
@@ -167,4 +168,18 @@
 .main-arrow-rotate * {
   font-size: 10px;
   display: flex;
+}
+
+.final-curve {
+  position: absolute;
+  bottom: 0;
+  left: 8.5rem;
+  width: 30%;
+  height: 80%;
+  border: 2px solid black;
+  z-index: -1;
+  bottom: 6.3rem;
+  border-top-right-radius: 20px;
+  border-left: transparent;
+  border-bottom: transparent;
 }

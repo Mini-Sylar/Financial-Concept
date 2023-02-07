@@ -61,6 +61,7 @@ const RightSide = () => {
             </p>
           </div>
         </div>
+        <div className="final-curve"></div>
       </div>
     </div>
   );
