@@ -33,8 +33,9 @@ const LeftSide = () => {
       </div>
       <div className="cards">
         <div className="card-one">
-          <h3>1 Million +</h3>
-          <p>Every month cashback for our clients</p>
+          <h3>Design By</h3>
+
+          <a href="https://dribbble.com/haloweb">Halo Web</a>
         </div>
         <div className="card-two">
           <div className="left-inner">

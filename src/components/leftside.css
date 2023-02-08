@@ -121,7 +121,7 @@ button {
   background-color: #010000;
   border-radius: 25px;
   color: white;
-  width: fit-content;
+  width: 50%;
 }
 
 .card-two {

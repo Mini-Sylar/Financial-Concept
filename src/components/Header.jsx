@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header>
+    <header style={headerStyles.mainHeader}>
       <nav style={headerStyles.nav}>
         {screen.width <= 500 ? "" : <div className="logo">Financilux</div>}
         <div className="nav-links">
@@ -43,5 +43,9 @@ const headerStyles = {
     listStyle: "none",
     justifyContent: "space-between",
     width: "300px",
+  },
+  mainHeader: {
+    width: "min(100%, 1600px)",
+    margin: "0 auto",
   },
 };

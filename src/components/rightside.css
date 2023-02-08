@@ -278,7 +278,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 769px) {
   .grid-item:nth-child(1)::before {
     left: 3.3rem;
     top: 18.6rem;
@@ -288,8 +288,26 @@
     left: -10.6rem;
     bottom: 6rem;
   }
-   .style-line-rotate-up {
+  .style-line-rotate-up {
     right: 4.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid-item:nth-child(1)::after{
+    left: -.1rem;
+  }
+  .grid-item:nth-child(1)::before {
+    left: 3.3rem;
+    top: 18.6rem;
+    border-width: 3px;
+  }
+  .main-arrow-rotate {
+    left: -10.9rem;
+    bottom: 6rem;
+  }
+  .style-line-rotate-up {
+    right: 5.8rem;
   }
 }
 
