@@ -2,22 +2,26 @@ const Header = () => {
   return (
     <header>
       <nav style={headerStyles.nav}>
-        <div className="logo">Financilux</div>
+        {screen.width <= 500 ? "" : <div className="logo">Financilux</div>}
         <div className="nav-links">
           <ul style={headerStyles.ul}>
             <li>
-              <a href="">Platform</a>
+              <a href="#">Platform</a>
             </li>
             <li>
-              <a href="">Features</a>
+              <a href="#">Features</a>
             </li>
             <li>
-              <a href="">How it Works</a>
+              <a href="#">How it Works</a>
             </li>
           </ul>
         </div>
         <div className="call-to-action">
-          <button type="button">Get The App</button>
+          {screen.width <= 500 ? (
+            ""
+          ) : (
+            <button type="button">Get The App</button>
+          )}
         </div>
       </nav>
     </header>
