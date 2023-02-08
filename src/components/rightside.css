@@ -256,6 +256,27 @@
   transition: all 0.5s ease-in-out;
 }
 
+@media screen and (max-width: 1025px) {
+  .grid-item:nth-child(1)::before {
+    /* background-color: red; */
+    top: 18.55rem;
+    width: 100px;
+    left: 4.3rem;
+    height: 100px;
+  }
+  .main-arrow-rotate {
+    left: -11.5rem;
+    bottom: 6rem;
+  }
+  .grid-item:nth-child(1)::after{
+    height: 110px;
+  }
+
+  .style-line-rotate-up{
+    right: 9.2rem;
+  }
+}
+
 /* Rotating animation */
 @keyframes rotate {
   0% {
