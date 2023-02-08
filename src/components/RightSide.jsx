@@ -1,9 +1,15 @@
 import "./rightside.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import img from '../assets/images/pattern.png'
+import {
+  faArrowRight,
+  faMobileAndroid,
+  faDatabase,
+} from "@fortawesome/free-solid-svg-icons";
+import img from "../assets/images/pattern.png";
 
 const arrowRight = <FontAwesomeIcon icon={faArrowRight} />;
+const mobile = <FontAwesomeIcon icon={faMobileAndroid} />;
+const database = <FontAwesomeIcon icon={faDatabase} />;
 
 const RightSide = () => {
   return (
@@ -43,7 +49,7 @@ const RightSide = () => {
         <span className="style-line style-line-rotate-up"></span>
         <div className="component-left">
           <div className="title-icon">
-            <span className="icon"></span>
+            <span className="icon">{database}</span>
             <p>Subscriptions</p>
           </div>
           <div className="title-text">
@@ -56,7 +62,7 @@ const RightSide = () => {
         </div>
         <div className="component-right">
           <div className="title-icon">
-            <span className="icon"></span>
+            <span className="icon">{mobile}</span>
             <p>Mobile Applications</p>
           </div>
           <div className="title-text">
