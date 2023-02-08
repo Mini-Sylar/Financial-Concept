@@ -27,7 +27,6 @@ export default Header;
 
 const headerStyles = {
   nav: {
-    backgroundColor: "#fff",
     height: "80px",
     display: "flex",
     justifyContent: "space-between",

@@ -6,6 +6,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: rgb(191, 184, 179);
+  background: linear-gradient(
+    122deg,
+    rgb(210, 205, 201) 0%,
+    rgb(239, 238, 237) 100%
+  );
 }
 
 .main-container {
@@ -23,10 +29,8 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .contains-sides {
     grid-template-columns: 1fr;
   }
-}
-  
 }

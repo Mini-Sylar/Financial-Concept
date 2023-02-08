@@ -1,12 +1,16 @@
 import "./rightside.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import img from '../assets/images/pattern.png'
 
 const arrowRight = <FontAwesomeIcon icon={faArrowRight} />;
 
 const RightSide = () => {
   return (
     <div className="right-side">
+      <div className="big-arrow">
+        <span className="big-arrow-icon">{arrowRight}</span>
+      </div>
       <div className="contains-arrows">
         <div className="arrows"></div>
         <div className="followers">
@@ -18,7 +22,9 @@ const RightSide = () => {
       </div>
       <div className="grid-container">
         <div className="grid-item">
-          <div className="dots">...</div>
+          <div className="dots">
+            <img className="image-pattern" src={img} alt="" />
+          </div>
           <p className="take-expenses">
             Take your <br /> expenses <br /> under control
           </p>
